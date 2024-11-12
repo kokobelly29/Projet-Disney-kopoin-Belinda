@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon-v2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css"> <!--permet l'adaptation du site web au navigateur pour qu'il soit tous similaire-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Disney+ | Productions originales, films à succès et séries</title>
+</head>
+<body>
+    <section class="section_1">
+        <img src="imgs/original_2.jpeg" alt="image section 1">
+        <a href="https://www.disneyplus.com/identity/login/enter-email" class="button-style">S'IDENTIFIER</a> <!--button _> a plus simple-->
+        <div>
+            <h1 id="title1">Nouvelles productions originales, grands films,<br> séries cultes et encore + en streaming</h1>
+            <h2>Sans coût additionnel. Sans engagement.*</h2>
+            <label for="email_section-1"><p>Entrez votre adresse e-mail pour commencer ou réactiver votre abonnement.</p></label>
+            <form action="submit" method="post">
+                <input type="email" name="email" id="email_section-1" placeholder="Adresse e-mail" required><span><input id="button_inscrire" type="submit" value="S'INSCRIRE"></span>
+            </form>
+            <p class="p1_section_1">Profitez de 12 mois au prix de 10 avec un abonnement Prenium ou Standard annuel. Économies par rapport à un an d'abonnement mensuel. </p>
+            <p class="p2_section_1">* La résiliation prend effet à la fin de la période d'abonnement en cours. Abonnement requis.<br> <em>Becoming Karl Lagerfeld</em> en streaming dès le 7 juin.</p>
+            <center><a href="#chevron" class="chevron_style"><i class="fa fa-chevron-down"></i></a></center>
+            <script>
+                var chevron = document.querySelector('#chevron');
+
+                chevron.addEventListener('click', function() {
+                    chevron.classList.toggle('chevron--flip');
+});
+            </script>
+        </div>
+        
+    </section>
+    <section class="section_2" id="chevron" >
+        <img src="imgs/original_4.jpeg" alt="image section 2">
+        <div class="text_gauche">    
+            <h2>Seulement sur Disney+</h2>
+            <p class="p1_section_2">Des séries et productions originales exclusives que vous ne trouverez sur <br> aucun autre service de streaming.</p>
+            <p class="p2_section_2">© 2023 TAS Rights Management LLC</p>
+        </div>
+    
+    </section>
+    <section class="section_3">
+        <h2>Sélectionnez votre abonnement</h2>
+        <table>
+            <tr>
+                <td class="column1">Profitez de 12 mois au prix de 10*</td>
+                <td class="minus"><i class="fa fa-minus"></i></td>
+                <td><u>89.90 euro/an</u></td>
+                <td class="column4"><u>119.90 euro/an </u></td>
+            </tr>
+            <tr>
+                <td class="column1">Qualité vidéo jusqu'à</td>
+                <td>1080p Full HD</td>
+                <td>1080p Full HD</td>
+                <td class="column4">4K Ultra HD et HDR</td>
+            </tr>
+            <tr>
+                <td class="column1">Lectures simultanées</td>
+                <td>2</td>
+                <td>2</td>
+                <td class="column4">4</td>
+            </tr>
+            <tr>
+                <td class="column1">Téléchargements</td>
+                <td class="minus"><i class="fa fa-minus"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td class="column4"><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="column1">Prise en charge de Dolby Atmos</td>
+                <td class="minus"><i class="fa fa-minus"></i></td>
+                <td class="minus"><i class="fa fa-minus"></i></td>
+                <td class="column4"><i class="fa fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="column1">Streaming sans publicité**</td>
+                <td class="minus"><i class="fa fa-minus"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td class="column4"><i class="fa fa-check"></i></td>
+            </tr>
+        </table>
+        <p> * Économies par rapport à un an d'abonnement mensuel.<br>
+            ** Toutes les offres d’abonnements peuvent inclure des bandes-annonces pour nos films de cinéma, la promotion de produits et services Disney, des messages de parrainage et autres contenus promotionnels limités. La qualité audio et vidéo dépend du débit Internet et des capacités de votre appareil. Abonnement Standard avec pub : pas disponible sur certains appareils, et ne permet pas les téléchargements.<u>En savoir plus.</u></p>
+    </section>
+    <section class="section_4">
+        <h2>Regardez selon vos envies</h2>
+        <p>Profitez des plus belles histoires au monde, partout et à tout moment.</p>
+        <img class="img_section4" src="imgs/original.jpeg" alt="image_section_4">
+        <div class="characteristic">
+            <div class="characteristic_1">
+                <img src="imgs/logo-bobine-film.png" alt="divertissement">
+                <h4>Un divertissement sans fin</h4>
+                <p>Découvrez des milliers d'heures de séries, films et productions originales.</p>
+            </div>
+            <div class="characteristic_2">
+                <img src="imgs/original_9.png" alt="disponibilité">
+                <h4>Disponible sur vos appareils préférés</h4>
+                <p>Utilisez jusqu'à 4 appareils compatibles en simultané.</p>
+            </div>
+            <div class="characteristic_3">
+                <img src="imgs/logo-ecran-couleur.png" alt="controle parental">
+                <h4>Un contrôle parental intuitif</h4>
+                <p>Utilisez jusqu'à 4 appareils compatibles en simultané.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section_5">
+        <h2>Questions fréquentes</h2>
+        <div class="question1">
+            <span><h3>Qu'est-ce que Disney+ ?</h3></span>
+            <img class="button_plus" src="imgs/icone_plus.svg" alt="bouton +" >
+            <div class="answer1">
+                <p>Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic, Star et encore +.</p>
+            </div>
+        </div>
+        <div class="question2">
+            <span><h3>Que puis-je regarder sur Disney+ ?</h3></span>
+            <img class="button_plus" src="imgs/icone_plus.svg" alt="bouton +" >
+            <div class="answer2">
+                <p>Disney+ vous offre une collection d'histoires qui ne cesse de s'agrandir :</p>
+                <ul>
+                    <li>Des séries et des films originaux exclusifs</li>
+                    <li>Des classiques intemporels aux succès récents réalisés par Walt Disney Animation Studios</li>
+                    <li>Toujours plus de divertissement avec des comédies, des drames, des histoires inspirées de faits réels et tant d'autres contenus</li>
+                    <li>Des histoires émouvantes et pour tous les âges animées par les talentueux artistes de Pixar</li>
+                    <li>Toute la saga Star Wars et une grande partie de l'univers cinématographique Marvel</li>
+                    <li>Des documentaires National Geographic, sans oublier des productions spéciales et bien plus encore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="question3"> 
+            <span><h3>Quels appareils et plateformes puis-je utiliser avec Disney+ ?</h3></span>
+            <img class="button_plus" src="imgs/icone_plus.svg" alt="bouton +" >
+            <div class="answer3">
+                <p>Disney+ est accessible sur mobiles, navigateurs Web, consoles de jeux, décodeurs TV et TV connectées. Cliquez ici pour retrouver la liste complète des appareils compatibles.</p>
+            </div>
+        </div>
+        <div class="question4">   
+            <span><h3>L'abonnement Disney+ comprend-il une durée d'engagement ?</h3></span>
+            <img class="button_plus" src="imgs/icone_plus.svg" alt="bouton +">
+            <div class="answer4"> 
+                <p>Disney+ est sans engagement et vous pouvez annuler votre abonnement quand vous le souhaitez. L'annulation sera effective à la fin de la période pour laquelle vous avez payé. Pour vous désabonner, suivez ces 6 étapes:</p>
+                <ol>
+                    <li>Identifiez-vous sur www.DisneyPlus.com</li>
+                    <li>Sélectionnez votre profil</li>
+                    <li>Sélectionnez Compte</li>
+                    <li>Sélectionnez votre abonnement</li>
+                    <li>Sélectionnez Résilier l’abonnement</li>
+                    <li>Sélectionnez Continuer pour résilier</li>
+                </ol>
+                <p>Pour plus d'informations, cliquez <u>ici</u>.</p>
+            </div>
+        </div>
+    </section> 
+    <section class="section_6">
+        <h2>Accessible sur vos appareils préférés</h2>
+        <div class="devices">
+            <div class="TV">
+                <img src="imgs/logo-television.png" alt="TV">
+                <h4>Télévisions</h4>
+                    <ul>
+                        <li>Amazon Fire TV</li>
+                        <li>Appareils Android TV</li>
+                        <li>Apple TV</li>
+                        <li>Chromecast</li>
+                        <li>TV LG</li>
+                        <li>Roku</li>
+                        <li>Samsung</li>
+                    </ul>
+            </div>
+            <div class="laptop">
+                <img src="imgs/logo-ecran-ordinateur.png" alt="laptop">
+                <h4>Ordinateurs</h4>
+                <ul>
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </div>
+            <div class="mobiles">
+                <img src="imgs/logo-tablet.png" alt="mobiles">
+                <h4>Mobiles et tablettes</h4>
+                <ul>
+                    <li>Tablettes Amazon Fire</li>
+                    <li>Mobiles et tablesttes Android</li>
+                    <li>iPhone & iPad</li>
+                </ul>
+            </div>
+            <div class="manette">
+                <img src="imgs/logo-manette.png" alt="manette">
+                <h4>Consoles de jeux</h4>
+                <ul>
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Serie X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+<footer>
+    <div class="logo-footer">
+        <center><img src="imgs/grand-logo-disney-plus.png" alt="photo disney"></center>
+    </div>
+    
+    <ul class="footer_links">
+        
+        <li><select id="lang" name="lang">
+            <img src="imgs/globe.svg" alt="">
+            <option value="index.html">Français</option>
+            <option value="index_en.html">Anglais</option>
+        </select></li>
+        <li><a id="terms" href="">Conditions générales d'abonnement</a></li>
+        <li><a href="">Règles de Respect de la Vie Privée</a></li>
+        <li><a href="">Droits Données dans l'UE et au R-U</a></li>
+        <li><a href="">Politique de cookies</a></li>
+        <li><a href="">Publicités ciblées par centres d'intéret</a></li><br>
+        <li><a href="">Appareils compatibles</a></li>
+        <li><a href="">Aide</a></li>
+        <li><a href="">Offrez Disney+</a></li>
+        <li><a href="">À propos de Disney+</a></li>
+        <li><a href="">Gérer les préférences de confidentialité</a></li>
+    </ul>
+    <p>Le contenu et les plateformes disponibles peuvent varirer selon la zone géographique.</p>
+    <p>© 2024 Disney et ses sociétés affiliées. Tous droits réservés.</p>
+    <script>
+        const pageSelect = document.getElementById('lang');
+        
+        pageSelect.addEventListener('change', (e) =>{
+            const selectedPage = e.target.value;
+            window.location.href = selectedPage;
+        });
+    </script> 
+</footer>
+</html>
